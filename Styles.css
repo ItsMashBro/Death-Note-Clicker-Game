@@ -4,7 +4,7 @@ body {
     height: 500px;
     background-position: left;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% auto;
 }
 
 img[alt="deathnote"] {
@@ -15,7 +15,7 @@ img[alt="deathnote"] {
 .startingbox {
     border: 3px solid #959595;
     background-color: rgba(128,128,128,0.8);
-    position: relative; float: right; width: 300px; top: 50px; right: 5px;
+    position: relative; margin: auto; top: 100px;
     height: fit-content;
     width: fit-content;
     padding: 12px;
@@ -23,7 +23,7 @@ img[alt="deathnote"] {
 }
 
 .buybox {
-    position: relative; top: 150px;
+    position: relative; top: 300px;
     
 }
 
