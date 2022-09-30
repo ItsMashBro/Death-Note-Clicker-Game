@@ -1,6 +1,6 @@
-var Names = 0
+var names = 0
 var Fame = 0
 
-function = writeNames(){
-while (Names >= 0)
+function writeNames(){
+    document.getElementById("namecount").innerHTML = names;
 }

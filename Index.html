@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles.css"> <link rel="text/javascript" href="Index.js">
+    <link rel="stylesheet" href="Styles.css"> <script type="text/javascript" src="Index.js"></script>
     <title>Document</title>
 </head>
 
@@ -12,9 +12,9 @@
 
 <body>
     <div class="startingbox">
-        <button onclick="writeNames(1)" class="writebutton" style="border-radius: 10px;"><span style="color: black;">Write Names In Your Notebook</span></button>
+        <button onclick="names++;writeNames();" class="writebutton" style="border-radius: 10px;"><span style="color: black;">Write Names In Your Notebook</span></button>
         <img src="Images/deathnote.jpg" alt="deathnote">        
-        <div style="color: white;">Names: <span id="Names">0</span></div>
+        <div style="color: white;">Names: <span id="namecount"></span></div>
         <div style="color: white;">Villian Clout: <span id="Fame">0%</span></div>
     </div>
     <div class="buybox">
