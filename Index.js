@@ -1,3 +1,6 @@
+var Names = 0
+var Fame = 0
+
 function = writeNames(){
-    if (Names <= 0)
+while (Names >= 0)
 }

@@ -1,3 +1,7 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
     background: url(Images/background.jpg);
     background-color: black;
@@ -61,6 +65,11 @@ img[alt="deathnote"] {
 .writebutton{
     position: relative; left: 5px;
 }
+
+button:hover {
+    background: #1C6EA4; }
+button:active {
+    background: #144E75; }
 
 #Names {
     padding: 5px;
