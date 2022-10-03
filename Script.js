@@ -2,7 +2,7 @@
 let shinigami = {
     names: 0,
     fame: undefined,
-    JapanPopulation: 100 //Obviously not but I'm not making the game run up to 125 million lol
+    JapanPopulation: 1000 //Obviously not but I'm not making the game run up to 125 million lol
 }
 let misaButton = document.getElementById("buymisa")
     misaButton.onclick = buyMisa;
